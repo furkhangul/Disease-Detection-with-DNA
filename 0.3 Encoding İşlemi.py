@@ -4,7 +4,7 @@ from sklearn import preprocessing
 veri = pd.read_csv("yeniVeri.csv")
 veri = veri.drop(["Ad", "Soyad"], axis=1)
 
-# Label Encoding
+# LabelEncoding
 le = preprocessing.LabelEncoder()
 label_sutunlar = [
     "APOE_e4_Geni", "APC_Geni_Mutasyonu", "CFTR_Geni_Mutasyonu",
@@ -13,7 +13,7 @@ label_sutunlar = [
 for sutun in label_sutunlar:
     veri[sutun] = le.fit_transform(veri[sutun])
 
-# One-Hot Encoding — tek satır
+# OneHotEncoding
 onehot_sutunlar = [
     "Cinsiyet", "Sigara_Durumu", "Alkol_Tuketimi",
     "Egzersiz_Seviyesi", "Aile_Gecmisi", "T2_Diyabet_Risk_Geni"
