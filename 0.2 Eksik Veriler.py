@@ -17,4 +17,8 @@ veri['Egzersiz_Seviyesi'] = veri['Egzersiz_Seviyesi'].fillna(veri['Egzersiz_Sevi
 
 #Sabit veriler için:
 veri['Aile_Gecmisi'] = veri['Aile_Gecmisi'].fillna('Bilinmiyor')
-veri.to_csv('yeniVeri.csv')
+veri.to_csv('yeniVeri.csv',index=False)
+
+
+yeniVeri = pd.read_csv('yeniVeri.csv')
+print(yeniVeri.to_string())
