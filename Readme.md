@@ -40,7 +40,7 @@ kanser-riski-ml/
 ├── 📓 Kanser_Risk_Analizi.ipynb
 ├── 📄 gene_expression.csv                         
 ├── 📝 README.md                                   
-└── 📑 Kanser_Riski_Rapor.docx
+└── 📑 Kanser_Riski_Rapor.pdf
 ```
 
 ---
