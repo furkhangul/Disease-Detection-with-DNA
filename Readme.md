@@ -7,9 +7,7 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-**Veri Madenciliği Dersi — 2025-2026 Bahar Dönemi İçi Projesi**
 
-*Furkan Gül · 2311505269*
 
 </div>
 
@@ -80,8 +78,8 @@ kanser-riski-ml/
 ### 1. Repoyu klonla
 
 ```bash
-git clone https://github.com/kullanici-adi/kanser-riski-ml.git
-cd kanser-riski-ml
+git clone https://github.com/furkhangul/Disease-Detection-with-DNA.git
+cd Disease-Detection-with-DNA
 ```
 
 ### 2. Gerekli kütüphaneleri yükle
@@ -93,7 +91,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 ### 3. Notebook'u çalıştır
 
 ```bash
-jupyter notebook Furkan_Gul_2311505269_Kanser_Riski.ipynb
+jupyter notebook Kanser_Risk_Analizi.ipynb
 ```
 
 ---
