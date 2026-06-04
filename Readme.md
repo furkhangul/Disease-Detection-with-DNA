@@ -37,10 +37,10 @@ Bu proje, **gen ifadesi (gene expression)** verilerini kullanarak bireylerin kan
 ```
 kanser-riski-ml/
 │
-├── 📓 Furkan_Gul_2311505269_Kanser_Riski.ipynb   # Ana notebook
-├── 📄 gene_expression.csv                         # Veri seti
-├── 📝 README.md                                   # Bu dosya
-└── 📑 Kanser_Riski_Rapor.docx                    # Proje raporu
+├── 📓 Kanser_Risk_Analizi.ipynb
+├── 📄 gene_expression.csv                         
+├── 📝 README.md                                   
+└── 📑 Kanser_Riski_Rapor.docx
 ```
 
 ---
